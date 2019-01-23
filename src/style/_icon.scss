@@ -1,0 +1,15 @@
+@import '~@/_colors.scss';
+
+.iconContainer {
+    border: 1px solid transparent;
+    background-color: $grass-green;
+    box-shadow: 0 0 5px grey;
+    border-radius: 50%;
+    position: fixed;
+    text-align: center;
+    cursor: pointer;
+    i {
+        font-size: 20px;
+        color: white;
+    }
+}

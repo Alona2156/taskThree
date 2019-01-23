@@ -1,0 +1,19 @@
+@import '_flex-mixin';
+
+html, body {
+height: 100%;
+width: 100%;
+max-width: 100%;
+overflow-x: hidden;
+overflow-y:scroll !important;
+//position: fixed;
+margin-left: 0 !important;
+margin-right: 0 !important;
+overscroll-behavior-y: contain;
+}
+
+body {
+  min-height: 100%;
+  letter-spacing: 1.2px;
+  @include flex(flex-start, flex-start);
+}

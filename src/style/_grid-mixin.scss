@@ -1,0 +1,6 @@
+@mixin grid($gtc, $ji, $ai) {
+  display: grid;
+  grid-template-columns: $gtc;
+  justify-items: $ji;
+  align-items: $ai;
+}
